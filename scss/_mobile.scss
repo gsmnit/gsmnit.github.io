@@ -1,0 +1,24 @@
+// wideScreens
+@include mediaXL {}
+
+// desktop & laptop Screens
+@include mediaLg {}
+
+// tablets & small laptops Screens
+@include mediaMd {
+    main {
+        align-items: center;
+        text-align: center;
+        .lg-heading {
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+// smart phone Screens
+@include mediaSm {
+    main#home h1 {
+        margin-top: 10vh;
+    }
+}
