@@ -1,5 +1,5 @@
 // wideScreens
-@include mediaXL {}
+@include mediaXl {}
 
 // desktop & laptop Screens
 @include mediaLg {}
@@ -14,6 +14,34 @@
             margin-bottom: 1rem;
         }
     }
+    
+    ul.menu-nav,
+    div.menu-branding{
+        float : none;
+        width: 100%;
+        min-height: 0;
+        //height: 50vh;
+        &.show{
+            transform: translate3d(0,0,0);
+        }
+
+    }
+
+    .manu-nav{
+        height: 75vh;
+        transform: translate3d(-100%,0,0);
+        font-size: 24px;
+    }
+
+    .manu-branding{
+        height : 25vh;
+        transform: translate3d(100%,0,0);
+    }
+
+    //.portrait{}
+
+
+  
 }
 
 // smart phone Screens
@@ -21,4 +49,5 @@
     main#home h1 {
         margin-top: 10vh;
     }
+    
 }

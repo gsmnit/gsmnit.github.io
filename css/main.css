@@ -68,8 +68,6 @@
 }
 
 .menu-branding {
-  margin: 0;
-  padding: 0;
   background: #414141;
   list-style: none;
   transform: translate3d(0, 100%, 0);
@@ -83,7 +81,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../dist/img/portrait.jpg");
+  background: url("../img/bcgrnd1.jpg");
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -132,23 +130,6 @@
 
 .nav-item:nth-child(4) {
   transition-delay: 0.4s;
-}
-
-@media screen and (max-width: 768px) {
-  main {
-    align-items: center;
-    text-align: center;
-  }
-  main .lg-heading {
-    line-height: 1;
-    margin-bottom: 1rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh;
-  }
 }
 
 * {
@@ -220,7 +201,6 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%;
 }
 
 main .icon {
@@ -242,4 +222,40 @@ main#home {
 
 main#home h1 {
   margin-top: 20vh;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center;
+  }
+  main .lg-heading {
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+  }
+  ul.menu-nav.show,
+  div.menu-branding.show {
+    transform: translate3d(0, 0, 0);
+  }
+  .manu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px;
+  }
+  .manu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh;
+  }
 }

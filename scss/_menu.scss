@@ -67,8 +67,8 @@
         }
     }
     &-branding {
-        margin: 0;
-        padding: 0;
+        //margin: 0;
+        //padding: 0;
         background: darken($primary-color, $amount: 1);
         list-style: none;
         transform: translate3d(0, 100%, 0);
@@ -80,7 +80,7 @@
         .portrait {
             width: 250px;
             height: 250px;
-            background: url("../dist/img/portrait.jpg");
+            background: url("../img/bcgrnd1.jpg");
             border-radius: 50%;
             border: solid 3px $secondary-color;
         }
