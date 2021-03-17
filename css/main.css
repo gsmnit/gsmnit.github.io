@@ -11,7 +11,7 @@
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: #fff;
+  background: white;
   transition: all 0.5s ease-out;
 }
 
@@ -57,7 +57,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #373737;
+  background: #0e0b0b;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -68,7 +68,7 @@
 }
 
 .menu-branding {
-  background: #414141;
+  background: #191515;
   list-style: none;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
@@ -106,7 +106,7 @@
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: 300;
-  color: #fff;
+  color: white;
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
@@ -137,7 +137,7 @@
 }
 
 body {
-  background: #444;
+  background: #1c1717;
   color: white;
   height: 100%;
   margin: 0;
@@ -159,7 +159,7 @@ body#bg-img::after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(68, 68, 68, 0.5);
+  background: rgba(28, 23, 23, 0.5);
 }
 
 h1,
@@ -181,7 +181,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(73, 73, 73, 0.5);
+  background: rgba(34, 28, 28, 0.5);
 }
 
 a {
@@ -224,6 +224,51 @@ main#home h1 {
   margin-top: 20vh;
 }
 
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "bio-image bio bio" "job1 job2 job3";
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bio-image {
+  grid-area: bio-image;
+  margin: auto;
+  border-radius: 50%;
+  padding: 10px;
+  border: #eece1a 3px solid;
+}
+
+.bio {
+  grid-area: bio;
+  font-size: 1.5rem;
+}
+
+.job1 {
+  grid-area: job1;
+}
+
+.jo2 {
+  grid-area: job2;
+}
+
+.job3 {
+  grid-area: job3;
+}
+
+.job {
+  background: #2a2222;
+  padding: 0.5rem;
+  border-bottom: #eece1a 5px solid;
+}
+
+#main-footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
@@ -243,14 +288,22 @@ main#home h1 {
   div.menu-branding.show {
     transform: translate3d(0, 0, 0);
   }
-  .manu-nav {
+  .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px;
   }
-  .manu-branding {
+  .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0);
+  }
+  .menu-branding .portrait {
+    width: 150px;
+    height: 150px;
+  }
+  .about-info {
+    grid-template-areas: 'bio-image' 'bio' 'job1' 'job2' 'job3';
+    grid-template-columns: 1fr;
   }
 }
 

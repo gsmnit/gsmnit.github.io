@@ -1,4 +1,6 @@
-$primary-color: #444;
+//$primary-color:white;
+$primary-color:hsl(0, 10%, 10%);
+
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/bcgrnd2.jpg);
@@ -25,6 +27,14 @@ $background-opacity:0.5;
             }
         }
     }
+}
+//set text color
+@function set-text-color($color){
+   @if (lightness($color) > 40){
+     @return black;
+   } @else{
+     @return white;
+   }
 }
 
 //media Query mixing

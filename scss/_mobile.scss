@@ -9,39 +9,51 @@
     main {
         align-items: center;
         text-align: center;
-        .lg-heading {
-            line-height: 1;
-            margin-bottom: 1rem;
-        }
-    }
     
-    ul.menu-nav,
-    div.menu-branding{
-        float : none;
+        .lg-heading {
+          line-height: 1;
+          margin-bottom: 1rem;
+        }
+      }
+    
+      ul.menu-nav,
+      div.menu-branding {
+        float: none;
         width: 100%;
         min-height: 0;
-        //height: 50vh;
-        &.show{
-            transform: translate3d(0,0,0);
+    
+        &.show {
+          transform: translate3d(0, 0, 0);
         }
-
-    }
-
-    .manu-nav{
+      }
+    
+      .menu-nav {
         height: 75vh;
-        transform: translate3d(-100%,0,0);
+        transform: translate3d(-100%, 0, 0);
         font-size: 24px;
-    }
+      }
+    
+      .menu-branding {
+        height: 25vh;
+        transform: translate3d(100%, 0, 0);
+    
+        .portrait {
+          //background: url("");
+          width: 150px;
+          height: 150px;
+        }
+      }
 
-    .manu-branding{
-        height : 25vh;
-        transform: translate3d(100%,0,0);
-    }
-
-    //.portrait{}
-
-
-  
+      .about-info{
+        grid-template-areas: 
+        'bio-image'
+        'bio'
+        'job1'
+        'job2'
+        'job3'
+        ;
+        grid-template-columns: 1fr;
+      }
 }
 
 // smart phone Screens
