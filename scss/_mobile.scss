@@ -1,8 +1,16 @@
 // wideScreens
-@include mediaXl {}
+@include mediaXl {
+  .projects{
+    grid-template-columns: repeat(4,1fr);
+  }
+}
 
 // desktop & laptop Screens
-@include mediaLg {}
+@include mediaLg {
+  .projects{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
 
 // tablets & small laptops Screens
 @include mediaMd {
@@ -54,12 +62,17 @@
         ;
         grid-template-columns: 1fr;
       }
-}
+      .projects{
+        grid-template-columns: 1fr 1fr;
+      }
+    }      
 
 // smart phone Screens
 @include mediaSm {
     main#home h1 {
         margin-top: 10vh;
     }
-    
+    .projects{
+      grid-template-columns: 1fr;
+    }
 }
