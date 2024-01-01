@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ExampleSite</title>
-    <link>https://examplesite.com/</link>
+    <link>https://gsmnit.github.io/</link>
     <description>Recent content on ExampleSite</description>
     <image>
       <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://gsmnit.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://gsmnit.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 01 Jan 2024 14:28:23 +0530</lastBuildDate>
-    <atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gsmnit.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post</title>
-      <link>https://examplesite.com/posts/post/</link>
+      <link>https://gsmnit.github.io/posts/post/</link>
       <pubDate>Mon, 01 Jan 2024 14:28:23 +0530</pubDate>
-      <guid>https://examplesite.com/posts/post/</guid>
+      <guid>https://gsmnit.github.io/posts/post/</guid>
       <description>title: &amp;ldquo;My 1st post&amp;rdquo; date: 2020-09-15T11:30:03+00:00
 weight: 1 aliases: [&amp;quot;/first&amp;quot;] tags: [&amp;ldquo;first&amp;rdquo;] author: &amp;ldquo;Me&amp;rdquo;
 author: [&amp;ldquo;Ganpat Singh&amp;rdquo;, &amp;ldquo;You&amp;rdquo;] # multiple authors showToc: true TocOpen: false draft: false hidemeta: false comments: false description: &amp;ldquo;Desc Text.&amp;rdquo; canonicalURL: &amp;ldquo;https://canonical.url/to/page&amp;quot; disableHLJS: true # to disable highlightjs disableShare: false disableHLJS: false hideSummary: false searchHidden: true ShowReadingTime: true ShowBreadCrumbs: true ShowPostNavLinks: true ShowWordCount: true ShowRssButtonInSectionTermList: true UseHugoToc: true cover: image: &amp;ldquo;&amp;lt;image path/url&amp;gt;&amp;rdquo; # image path/url alt: &amp;ldquo;&amp;rdquo; # alt text caption: &amp;ldquo;&amp;rdquo; # display caption under cover relative: false # when using page bundles set this to true hidden: true # only hide on current single page editPost: URL: &amp;ldquo;https://github.</description>
