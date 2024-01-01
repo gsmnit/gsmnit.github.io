@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "\U0001F44B  Welcome to my blog"
+    Content: this is Ganpat Singh. I’m documenting my learning notes in this blog. Besides, I’m software engineering at Samsung Electronics.
 
   socialIcons:
     - name: x
@@ -114,19 +114,35 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 menu:
-  main:
+  en:
+    - identifier: posts
+      name: Posts
+      url: 
+      weight: 5
+    - identifier: archive
+      name: Archive
+      url: archive/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: search/
+      weight: 15
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 25
     - identifier: example
-      name: example.org
-      url: https://example.org
+      name: emojisearch
+      url: https://www.emojisearch.app/
       weight: 30
+    - identifier: Wiki
+      name: Wiki
+      url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
