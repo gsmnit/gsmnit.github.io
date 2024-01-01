@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://gsmnit.github.io/</loc>
-    <lastmod>2024-01-02T00:17:38+05:30</lastmod>
-  </url><url>
-    <loc>https://gsmnit.github.io/posts/my-first-post/</loc>
-    <lastmod>2024-01-02T00:17:38+05:30</lastmod>
-  </url><url>
-    <loc>https://gsmnit.github.io/posts/</loc>
-    <lastmod>2024-01-02T00:17:38+05:30</lastmod>
-  </url><url>
-    <loc>https://gsmnit.github.io/posts/post/</loc>
-    <lastmod>2024-01-01T14:28:23+05:30</lastmod>
-  </url><url>
-    <loc>https://gsmnit.github.io/categories/</loc>
-  </url><url>
-    <loc>https://gsmnit.github.io/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://gsmnit.github.io/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://gsmnit.github.io/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://gsmnit.github.io/fa/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

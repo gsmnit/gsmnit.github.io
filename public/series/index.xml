@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PaperMod</title>
-    <link>https://gsmnit.github.io/</link>
-    <description>Recent content on PaperMod</description>
+    <title>Series on PaperMod</title>
+    <link>https://gsmnit.github.io/series/</link>
+    <description>Recent content in Series on PaperMod</description>
     <image>
       <title>PaperMod</title>
       <url>https://gsmnit.github.io/images/papermod-cover.png</url>
@@ -11,6 +11,6 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="https://gsmnit.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gsmnit.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
