@@ -73,9 +73,9 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
+    Title: "\U0001F44B  Welcome to my blog"
+    Content: this is Ganpat Singh. I’m documenting my learning notes in this blog. Besides, I’m software engineering at Samsung Electronics.
+    
   socialIcons:
     - name: x
       url: "https://x.com/"
