@@ -1,4 +1,4 @@
-baseURL: "https://gsmnit.github.io/"
+baseURL: "/"
 title: Ganpat singh's Blog
 paginate: 5
 theme: PaperMod
