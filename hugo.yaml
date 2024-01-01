@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://gsmnit.github.io/"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
@@ -75,7 +75,7 @@ params:
   homeInfoParams:
     Title: "\U0001F44B  Welcome to my blog"
     Content: this is Ganpat Singh. I’m documenting my learning notes in this blog. Besides, I’m software engineering at Samsung Electronics.
-    
+
   socialIcons:
     - name: x
       url: "https://x.com/"
