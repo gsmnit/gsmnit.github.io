@@ -117,7 +117,7 @@ menu:
   main:
     - identifier: post
       name: Posts
-      url: 
+      url: "/post"
       weight: 5
     - identifier: search
       name: Search
