@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://gsmnit.github.io/"
+title: "Ganpat Singh's Blog"
 paginate: 5
 theme: PaperMod
 
@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  title: "Ganpat Singh's Blog"
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -59,7 +59,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: "Ganpat Singh's Blog"
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -118,7 +118,7 @@ menu:
     - identifier: post
       name: Posts
       url: 
-      weight: 10
+      weight: 5
     - identifier: search
       name: Search
       url: /search/
