@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on PaperMod</title>
+    <title>Posts on Ganpat Singh&#39;s Blog</title>
     <link>https://gsmnit.github.io/posts/</link>
-    <description>Recent content in Posts on PaperMod</description>
+    <description>Recent content in Posts on Ganpat Singh&#39;s Blog</description>
     <image>
-      <title>PaperMod</title>
-      <url>https://gsmnit.github.io/images/papermod-cover.png</url>
-      <link>https://gsmnit.github.io/images/papermod-cover.png</link>
+      <title>Ganpat Singh&#39;s Blog</title>
+      <url>https://gsmnit.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://gsmnit.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
