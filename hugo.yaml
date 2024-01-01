@@ -1,5 +1,5 @@
 baseURL: "https://gsmnit.github.io/"
-title: ExampleSite
+title: Ganpat singh's Blog
 paginate: 5
 theme: PaperMod
 
@@ -16,10 +16,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Ganpat singh's Blog
+  description: "I’m documenting my learning notes in this blog. Besides, I’m working as software engineering"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: "Ganpat Singh"
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -117,7 +117,7 @@ menu:
   main:
     - identifier: post
       name: Posts
-      url: 
+      url: /posts/
       weight: 10
     - identifier: search
       name: Search
