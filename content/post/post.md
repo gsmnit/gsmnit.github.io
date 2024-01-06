@@ -4,39 +4,6 @@ date = 2024-01-01T14:28:23+05:30
 draft = true
 +++
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-tags: ["first"]
-author: "Me"
-# author: ["Ganpat Singh", "You"] # multiple authors
-showToc: true
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
-description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
----
+## Introduction
+
+A supernova is a powerful explosion of a star, usually a star that is unable to produce sufficient energy from nuclear fusion to counteract its own gravity. Its remnant will become a diffuse nebula, neutron star or black hole. The peak optical luminosity of a supernova can be comparable to that of an entire galaxy before fading over several weeks or months. Supernovae occur in the Milky Way on average about three times every century; the last one directly observed was Kepler's Supernova (remnant pictured) in 1604. The most recent naked-eye supernova from another galaxy was SN 1987A, the explosion of a blue supergiant star in the Large Magellanic Cloud, a satellite of the Milky Way. Supernovae can expel several solar masses of material at velocities up to several percent of the speed of light. They are a major source of cosmic rays, and also the chemical elements from oxygen to rubidium on the periodic table. White dwarfs can also produce supernovae, if they gain enough mass to trigger runaway fusion.
