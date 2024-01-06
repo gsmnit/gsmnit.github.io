@@ -1,2 +1,0 @@
-initial commit
-From ganpat_singh
