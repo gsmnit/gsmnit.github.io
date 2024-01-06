@@ -130,9 +130,9 @@ menu:
       name: tags
       url: /tags/
       weight: 25
-    - identifier: example
-      name: emojisearch.app
-      url: https://www.emojisearch.app
+    - identifier: FAQ
+      name: FAQ
+      url: /FAQ/
       weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
