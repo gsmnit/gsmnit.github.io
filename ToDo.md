@@ -8,6 +8,7 @@ Project Management.
 - [ ] Using images 
   - [ ] Using images in posts
   - [ ] use of favicon 
+- [ ] MarkDown Language for beautiful posts
 
 ### In Progress
 
