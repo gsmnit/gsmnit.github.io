@@ -39,7 +39,7 @@ cover:
 # Embracing the Beauty of Nature
 
 
-{{< imgproc "/images/nature.jpg" "resize 300x" />}}
+/* {{< imgproc "/images/nature.jpg" "resize 300x" />}} */
 
 ![Nature](/images/nature.jpg)
 
