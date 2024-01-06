@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://gsmnit.github.io/sitemap.xml
