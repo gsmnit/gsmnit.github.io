@@ -17,9 +17,9 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Ganpat Singh's Blog"
-  description: "ExampleSite description"
+  description: "This is my site to Share my words with world"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: "Ganpat Singh"
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -30,7 +30,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -61,7 +61,7 @@ params:
     enabled: false # needs to be explicitly set
     title: "Ganpat Singh's Blog"
     subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    imageUrl: "static/image/_c14ba08e-b977-4c32-9d93-607af53927c5.jpeg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -78,11 +78,11 @@ params:
     
   socialIcons:
     - name: x
-      url: "https://x.com/"
+      url: "https://twitter.com/gehlotchoukha"
     - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://stackoverflow.com/users/14435365/ganpat-singh"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/gsmnit"
 
   analytics:
     google:
@@ -96,11 +96,6 @@ params:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -150,3 +145,16 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: images
+      target: static/images
