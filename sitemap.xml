@@ -2,17 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gsmnit.github.io/categories/</loc>
+    <lastmod>2024-01-07T00:10:03+05:30</lastmod>
+  </url><url>
+    <loc>https://gsmnit.github.io/categories/no-category-specified/</loc>
+    <lastmod>2024-01-07T00:10:03+05:30</lastmod>
+  </url><url>
+    <loc>https://gsmnit.github.io/tags/no-tags-specified/</loc>
+    <lastmod>2024-01-07T00:10:03+05:30</lastmod>
+  </url><url>
+    <loc>https://gsmnit.github.io/post/post_from_llm/</loc>
+    <lastmod>2024-01-07T00:10:03+05:30</lastmod>
+  </url><url>
+    <loc>https://gsmnit.github.io/post/</loc>
+    <lastmod>2024-01-07T00:10:03+05:30</lastmod>
+  </url><url>
+    <loc>https://gsmnit.github.io/tags/</loc>
+    <lastmod>2024-01-07T00:10:03+05:30</lastmod>
+  </url><url>
     <loc>https://gsmnit.github.io/</loc>
     <lastmod>2024-01-06T19:37:08+05:30</lastmod>
   </url><url>
     <loc>https://gsmnit.github.io/archive/</loc>
   </url><url>
-    <loc>https://gsmnit.github.io/categories/</loc>
-  </url><url>
     <loc>https://gsmnit.github.io/faq/</loc>
   </url><url>
     <loc>https://gsmnit.github.io/search/</loc>
-  </url><url>
-    <loc>https://gsmnit.github.io/tags/</loc>
   </url>
 </urlset>

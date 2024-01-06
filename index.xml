@@ -14,6 +14,13 @@
     <lastBuildDate>Sat, 06 Jan 2024 19:37:08 +0530</lastBuildDate>
     <atom:link href="https://gsmnit.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Post_from_LLM</title>
+      <link>https://gsmnit.github.io/post/post_from_llm/</link>
+      <pubDate>Sun, 07 Jan 2024 00:10:03 +0530</pubDate>
+      <guid>https://gsmnit.github.io/post/post_from_llm/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
       <title>FAQ</title>
       <link>https://gsmnit.github.io/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
