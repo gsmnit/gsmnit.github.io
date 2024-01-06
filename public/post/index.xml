@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ganpat Singh&#39;s Blog</title>
-    <link>https://gsmnit.github.io/</link>
-    <description>Recent content on Ganpat Singh&#39;s Blog</description>
+    <title>Posts on Ganpat Singh&#39;s Blog</title>
+    <link>https://gsmnit.github.io/post/</link>
+    <description>Recent content in Posts on Ganpat Singh&#39;s Blog</description>
     <image>
       <title>Ganpat Singh&#39;s Blog</title>
       <url>https://gsmnit.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Jan 2024 00:17:38 +0530</lastBuildDate>
-    <atom:link href="https://gsmnit.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gsmnit.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://gsmnit.github.io/post/my-first-post/</link>
