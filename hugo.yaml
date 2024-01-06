@@ -61,7 +61,7 @@ params:
     enabled: false # needs to be explicitly set
     title: "Ganpat Singh's Blog"
     subtitle: "This is subtitle"
-    imageUrl: "static/image/_c14ba08e-b977-4c32-9d93-607af53927c5.jpeg"
+    imageUrl: ""
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
