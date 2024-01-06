@@ -22,3 +22,10 @@ Project Management.
 
 - [x] basic archive and search feature
 - [x] Taxonomies: Tag and Categories feature
+
+### Useful Link
+(https://hygraph.com/blog/hugo-static-site) 
+
+(https://gohugo.io/getting-started/quick-start/)
+
+(https://github.com/adityatelange/hugo-PaperMod)
