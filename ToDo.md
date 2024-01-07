@@ -9,6 +9,7 @@ Project Management.
   - [ ] Using images in posts
   - [ ] use of favicon 
 - [ ] MarkDown Language for beautiful posts
+- [ ] FAQ page implementation
 
 ### In Progress
 
