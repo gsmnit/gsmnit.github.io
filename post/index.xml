@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Jan 2024 00:10:03 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 21:07:13 +0530</lastBuildDate>
     <atom:link href="https://gsmnit.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024</title>
+      <link>https://gsmnit.github.io/post/2024/</link>
+      <pubDate>Mon, 15 Jan 2024 21:07:13 +0530</pubDate>
+      <guid>https://gsmnit.github.io/post/2024/</guid>
+      <description>my thoughts about 2023 and hopes about 2024</description>
+    </item>
     <item>
       <title>Post_from_LLM</title>
       <link>https://gsmnit.github.io/post/post_from_llm/</link>

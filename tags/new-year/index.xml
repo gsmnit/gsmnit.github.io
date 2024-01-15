@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>no category specified on Ganpat Singh&#39;s Blog</title>
-    <link>https://gsmnit.github.io/categories/no-category-specified/</link>
-    <description>Recent content in no category specified on Ganpat Singh&#39;s Blog</description>
+    <title>new year on Ganpat Singh&#39;s Blog</title>
+    <link>https://gsmnit.github.io/tags/new-year/</link>
+    <description>Recent content in new year on Ganpat Singh&#39;s Blog</description>
     <image>
       <title>Ganpat Singh&#39;s Blog</title>
       <url>https://gsmnit.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 15 Jan 2024 21:07:13 +0530</lastBuildDate>
-    <atom:link href="https://gsmnit.github.io/categories/no-category-specified/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gsmnit.github.io/tags/new-year/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024</title>
       <link>https://gsmnit.github.io/post/2024/</link>
       <pubDate>Mon, 15 Jan 2024 21:07:13 +0530</pubDate>
       <guid>https://gsmnit.github.io/post/2024/</guid>
       <description>my thoughts about 2023 and hopes about 2024</description>
-    </item>
-    <item>
-      <title>Post_from_LLM</title>
-      <link>https://gsmnit.github.io/post/post_from_llm/</link>
-      <pubDate>Sun, 07 Jan 2024 00:10:03 +0530</pubDate>
-      <guid>https://gsmnit.github.io/post/post_from_llm/</guid>
-      <description>Desc Text.</description>
     </item>
   </channel>
 </rss>
