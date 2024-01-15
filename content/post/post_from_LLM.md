@@ -6,7 +6,7 @@ date: 2024-01-07T00:10:03+05:30
 tags: ["no tags specified"]
 categories: ["no category specified"]
 author: "Me"
-# author: ["Me", "You"] # multiple authors
+# author: ["Ganpat Singh with help of chatGPT"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
@@ -36,10 +36,6 @@ cover:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link */
 ---
-# Embracing the Beauty of Nature
-
-
-/* {{< imgproc "/images/nature.jpg" "resize 300x" />}} */
 
 ![Nature](/images/nature.jpg)
 

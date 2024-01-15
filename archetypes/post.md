@@ -6,7 +6,7 @@ date: {{ .Date }}
 tags: ["no tags specified"]
 categories: ["no category specified"]
 author: "Me"
-# author: ["Me", "You"] # multiple authors
+# author: ["Ganpat Singh"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
